@@ -1,0 +1,35 @@
+.mainPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 800px;
+  background-color:black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainPage h1 {
+  color: #13548a;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.mainPage button {
+  width: 200px;
+  height: 40px;
+  background-color: #13548a;
+  border: none;
+  border-radius: 8px;
+  color: #deeffd;
+}
+
+.mainPage button:hover {
+  background-color: #deeffd;
+  color: #13548a;
+}
+/*# sourceMappingURL=MainPage.css.map */

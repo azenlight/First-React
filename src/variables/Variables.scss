@@ -1,0 +1,19 @@
+//colors
+$softPink: rgb(223, 148, 148);
+$brightBlue: rgb(222, 239, 253);
+$darkBlue: rgb(19, 84, 138);
+$navBlack: #333;
+
+//Fonts
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: "Times New Roman", Times, serif;
+
+//Default Styles
+@mixin buttonStyle{
+    width:200px;
+    height:40px;
+    background-color: $darkBlue;
+    border:none;
+    border-radius: 8px;
+    color: $brightBlue;
+}

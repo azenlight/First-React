@@ -1,0 +1,23 @@
+@import "../Variables/Variables.scss";
+
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url("https:- //images-na.ssl-images-amazon.com/images/I/41lgQJTG6cL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    h1{
+        color: $darkBlue;
+        text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    }
+    
+    button {
+        @include buttonStyle();
+    }
+    button:hover{
+        background-color: $brightBlue;
+        color:$darkBlue;
+    }
+}
